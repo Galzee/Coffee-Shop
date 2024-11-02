@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=DynaPuff:wght@400..700&family=Imperial+Script&family=Jersey+10&family=Matemasie&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            background-color:#ffffff ;
+        }
+        .navbar {
+    background-color: #c1753c;
+    padding: 15px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+h2{
+    font-family: "DynaPuff";
+    color: #c1753c;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    color: hsl(24, 100%, 97%);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
+    color: #f3f3f3;
+    border-bottom: 2px solid white;
+    transition-duration: 0.2s;
+}
+        .menu1 {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.menu1 h2 {
+    margin-bottom: 40px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.menu-item {
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    filter: grayscale();
+}
+.menu-item:hover{
+    filter: none;
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 5px 5px hsl(0, 0%, 44%);
+    border-radius: 10px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+}
+
+.menu-item .price {
+    color: #b56425;
+    font-weight: bold;
+}
+
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="index.html#home">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="Breakfast" class="menu1">
+        <h2>Breakfast</h2>
+        <hr>
+        <div class="menu-items">
+                <div class="menu-item">
+                    <img src="Bread Egg.jpg" alt="Espresso">
+                    <h3>Bread Egg</h3>
+                    <hr>
+                    <p>Kenyang.</p>
+                    <p class="price">15K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Mac and cheese.jpg" alt="Latte">
+                    <h3>Mac and cheese</h3>
+                    <hr>
+                    <p>American food.</p>
+                    <p class="price">23K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Omelette.jpg" alt="Cappuccino">
+                    <h3>Omelette</h3>
+                    <hr>
+                    <p>Telur versi mahal.</p>
+                    <p class="price">23K</p>
+                </div>
+        </div>
+    </section>
+    <section id="drink" class="menu1">
+        <h2>Drink</h2>
+        <hr>
+        <div class="menu-items">
+                <div class="menu-item">
+                    <img src="espresso.jpg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    <hr>
+                    <p>Pahit :P.</p>
+                    <p class="price">15K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="latte.jpg" alt="Latte">
+                    <h3>Latte</h3>
+                    <hr>
+                    <p>Estetik bingit.</p>
+                    <p class="price">23K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="capucino.jpg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    <hr>
+                    <p>Italiano.</p>
+                    <p class="price">23K</p>
+                </div>
+                  <!-- 2 -->
+                <div class="menu-item">
+                    <img src="Red Velvet.jpg" alt="Espresso">
+                    <h3>Red Velvet</h3>
+                    <hr>
+                    <p>Merah merona.</p>
+                    <p class="price">18K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Matcha latte.jpg" alt="Latte">
+                    <h3>Matcha latte</h3>
+                    <hr>
+                    <p>Rasa rumput.</p>
+                    <p class="price">15K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="lemon tea.jpg" alt="Cappuccino">
+                    <h3>Lemon tea</h3>
+                    <hr>
+                    <p>Lemonade.</p>
+                    <p class="price">8K</p>
+                </div>
+        </div>
+    </section>
+    <section id="food" class="menu1">
+        <h2>Food</h2>
+        <hr>
+        <div class="menu-items">
+                <div class="menu-item">
+                    <img src="Brownies.jpg" alt="Espresso">
+                    <h3>Peanut Butter Brownies</h3>
+                    <hr>
+                    <p>Lembutnya bagai belaian ibu.</p>
+                    <p class="price">23K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Kentang.jpg" alt="Latte">
+                    <h3>French Fries</h3>
+                    <hr>
+                    <p>Bukan dari prancis,dari indonesia.</p>
+                    <p class="price">10K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Pancake.jpg" alt="Cappuccino">
+                    <h3>Pancake</h3>
+                    <hr>
+                    <p>Kue Panci.</p>
+                    <p class="price">18K</p>
+                </div>
+                  <!-- 2 -->
+                <div class="menu-item">
+                    <img src="Pisang Keju.jpg" alt="Espresso">
+                    <h3>ChocoCheese Banana</h3>
+                    <hr>
+                    <p>Sebenernya Pisang keju coklat.</p>
+                    <p class="price">20K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="Red cake.jpg" alt="Latte">
+                    <h3>Red velvet Cake</h3>
+                    <hr>
+                    <p>Merah merona versi Cake.</p>
+                    <p class="price">10K</p>
+                </div>
+                <div class="menu-item">
+                    <img src="waffle.jpg" alt="Cappuccino">
+                    <h3>Nutella Waffle</h3>
+                    <hr>
+                    <p>Nutz.</p>
+                    <p class="price">18K</p>
+                </div>
+        </div>
+    </section>
+    <div class="wave-background">
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#b56425" fill-opacity="1" d="M0,32L24,42.7C48,53,96,75,144,90.7C192,107,240,117,288,144C336,171,384,213,432,202.7C480,192,528,128,576,101.3C624,75,672,85,720,101.3C768,117,816,139,864,160C912,181,960,203,1008,197.3C1056,192,1104,160,1152,133.3C1200,107,1248,85,1296,74.7C1344,64,1392,64,1416,64L1440,64L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
+        </svg>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Kerang Coffee Shop | All rights reserved | AntiGpt.</p>
+    </footer>
+</body>
+</html>
